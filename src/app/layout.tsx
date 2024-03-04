@@ -1,6 +1,7 @@
 import '@/styles/globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Header from '@/components/Header';
 import Providers from './Providers';
 
 const inter = Inter({
@@ -9,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'NextJS Base',
-  description: 'NextJS 13.4 base setup',
+  title: 'Runwise',
+  description: 'Aviation Minigames',
 };
 
 export default function RootLayout({
@@ -21,7 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <body>
-        <Providers>{children}</Providers>
+        <Providers>
+          <Header />
+          <main>{children}</main>
+        </Providers>
       </body>
     </html>
   );
