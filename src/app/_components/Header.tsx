@@ -7,6 +7,9 @@ export default function Header() {
         <Link href="/" className="mr-6">
           Home
         </Link>
+        <Link href="/reciprocal" className="mr-6">
+          Reciprocal
+        </Link>
         <Link href="/angles" className="mr-6">
           Angles
         </Link>

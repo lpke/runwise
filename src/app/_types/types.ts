@@ -1,1 +1,1 @@
-export type GameId = 'angles' | 'active';
+export type GameId = 'reciprocal' | 'angles' | 'active';

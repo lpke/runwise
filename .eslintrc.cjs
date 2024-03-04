@@ -40,11 +40,13 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/require-default-props': 'off',
     'react/button-has-type': 'off',
+    'no-console': 'off',
+    'prefer-destructuring': 'off',
+    'consistent-return': 'off',
     'no-unused-vars': 'off', // doubles with LSP
     '@typescript-eslint/no-unused-vars': 'off', // doubles with LSP
     // downgrades from error to warn
     'prefer-const': 'warn',
-    'no-console': 'warn',
     'spaced-comment': 'warn',
     'no-multi-spaces': 'warn',
     'import/newline-after-import': 'warn',
