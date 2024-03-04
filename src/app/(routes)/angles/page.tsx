@@ -1,7 +1,5 @@
+import AnglesGame from '@/routes/angles/AnglesGame';
+
 export default function Angles() {
-  return (
-    <div>
-      <p>angles</p>
-    </div>
-  );
+  return <AnglesGame />;
 }
